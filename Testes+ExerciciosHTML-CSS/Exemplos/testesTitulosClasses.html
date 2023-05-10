@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<!-- aqui mostra o tipo de html que vai ser usado -->
+<!-- ! + enter ja mostra as principais tags -->
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- tag utilizada para nao ter problema com o edge -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- viwport utilizado para ajustar o layout para diferentes visualizações de dispositivos -->
+    <title>testando tags de HTML</title>
+
+
+
+
+
+
+    <style>
+        /* quando abrimos para fazer no CSS utilizamos o Style para trabalhar com outra linguagem, iremos usar duas linguagens juntas, o CSS é usado para formatar o conteudo do HTML */
+        * {
+            /* o reset é um comando que retira os espaçamentos que p browser coloca de forma aleatória */
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+
+        body {
+            /* usamos chaves "{...}" para o CSS para abrir e fechar */
+            font-size: 20px;
+            /* existe diversos tamanhos dentro CSS  */
+            font-family: verdana;
+            /* utilizado para selecionar o tipo de fonte */
+            color: rgb(6, 74, 96);
+            /* color utilizado para escolher a cor do texto, apertando no quadrado nós podemos usar a tonalidade*/
+            background-image: url(img/kisspng-printed-t-shirt-hoodie-cat-t-shirt-design-5a7031187cd7e5.7030738215173020405114.png);
+            /* cria uma imagem no fundo */
+            background-repeat: no-repeat;
+            /* evita repeticao */
+            background-position: center center;
+            /* posiciona a imagem no fundo */
+            background-attachment: fixed;
+            /* fixa a imagem enquanto o texto rola */
+            background-size: cover;
+            /* utilizado para tomar a tela inteira, cobrir a tela inteira */
+        }
+
+        h1 {
+            font: size 18px;
+            ;
+            font-family: arial;
+            color: rgb(18, 18, 228);
+            background-color: aliceblue;
+            text-align: center;
+            /* utilizado para centralizar */
+            font-weight: bold;
+            /* usado para selecionar negrito e etc */
+        }
+
+        h3 {
+            width: 600px;
+            /* usado para determinar largura */
+            background-color: brown;
+            color: blanchedalmond;
+            text-decoration: underline;
+            /* sublinhado */
+            font-size: 20pt;
+        }
+
+        .diferente {
+            background-color: black;
+            color: ghostwhite;
+        }
+
+        .pequena {
+            width: 200px;
+            height: 150px;
+        }
+
+        .media {
+            width: 300px;
+            height: 250px;
+        }
+
+        .grande {
+            width: 400px;
+            height: 300px;
+        }
+
+        h4,
+        h5,
+        h6 {
+            /* podemos selecionar varios usando apenas as virgulas pára separar */
+            width: 800px;
+            text-align: center;
+            font-size: 30px;
+            background-color: blueviolet;
+            color: darkgreen;
+        }
+
+        h4 {
+            background-color: chartreuse;
+            margin: 30px;
+            /* espaço para fora da área */
+        }
+
+        h5 {
+            margin-left: 200px;
+        }
+
+        h6 {
+            margin: 20px 0 50px 10px;
+            /* sequencia é a partir do topo no setido horario */
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- variacao de titulo de h1 a h6 -->
+    <h1> Testando titulos</h1>
+    <h2> Testando titulos</h2>
+    <h3 class="diferente">Testando titulos</h3>
+    <h3>Testando titulos</h3>
+    <h3>Testando titulos</h3>
+    <h4>Testando titulos</h4>
+    <h5>Testando titulos</h5>
+    <h6>Testando titulos</h6>
+    <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio obcaecati architecto ipsam sapiente nobis
+        itaque consectetur ab accusamus ad recusandae temporibus dignissimos nemo sint, natus sequi dolor. Sapiente,
+        libero qui.</p>
+
+    <img src="img/kisspng-printed-t-shirt-hoodie-cat-t-shirt-design-5a7031187cd7e5.7030738215173020405114.png"
+        class="pequena">
+
+    <img src="img/kisspng-printed-t-shirt-hoodie-cat-t-shirt-design-5a7031187cd7e5.7030738215173020405114.png"
+        class="media">
+
+    <img src="img/kisspng-printed-t-shirt-hoodie-cat-t-shirt-design-5a7031187cd7e5.7030738215173020405114.png"
+        class="grande">
+
+</body>
+
+</html>
